@@ -5,7 +5,7 @@
 	"description": "This package provides and shares core functionality across all O.M.A.Tools.",
 	"version": "0.1.0",
 	"unity": "2018.3",
-	"license": "GNU3",
+	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Cxyda/OmaTools-Core.git"
