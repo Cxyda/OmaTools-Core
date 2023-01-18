@@ -1,9 +1,9 @@
 
 {
-	"name": "de.oma.tools.core",
+	"name": "de.oma-tools.core",
 	"displayName": "OMA-Tools CORE",
 	"description": "This package provides and shares core functionality across all O.M.A.Tools.",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"unity": "2018.3",
 	"license": "GPL-3.0",
 	"repository": {
@@ -11,7 +11,7 @@
 		"url": "git+https://github.com/Cxyda/OmaTools-Core.git"
 	},
 	"src": "Assets/Plugins/O.M.A.Games/Core",
-	"author": "cxyda <cxyda@polybeast.de> (https://github.com/Cxyda)",
+	"author": "cxyda <cxyda@tuta.io> (https://github.com/Cxyda)",
 	"dependencies": {
 	}
 }
