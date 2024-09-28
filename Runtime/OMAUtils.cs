@@ -19,8 +19,8 @@ namespace Plugins.O.M.A.Games.Core
             return Prefix + " Module: " + module;
         }
 
-        #if UNITY_EDITOR
-        public static T GetFloatingCameraSettings<T>() where T : ScriptableObject
+#if UNITY_EDITOR
+        public static T GetScriptableObjectOfType<T>() where T : ScriptableObject
         {
             var allSettingsGuids = AssetDatabase.FindAssets("t:" + typeof(T).Name);
             if (allSettingsGuids.Length == 0)
@@ -32,6 +32,6 @@ namespace Plugins.O.M.A.Games.Core
             var settingsSo = AssetDatabase.LoadAssetAtPath<T>(settingsSoPath);
             return settingsSo;
         }
-        #endif
+#endif
     }
 }
